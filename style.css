@@ -2,16 +2,23 @@
     background-color: #ffffff; 
 }
 
+  .navbar-custom {
+    background-color: #000000; /* color personalizado */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-right: 1rem;
+    transition: color 0.1s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ffe066; 
+  }
 
 .navbar-nav .nav-link {
     color: rgb(0, 0, 0);           
 }
-
-
-.navbar-brand span {
-    color: rgb(0, 0, 0);           
-}
-
 
 .carousel-item img {
   height: 600px;
@@ -50,18 +57,39 @@
 
 
 .rectangulo-verde {
+  padding: 75px ;
   width: 100%;      
-  height: 50px;     
+  height: 0px;     
   background-color: #30b34e;
   color: rgb(255, 255, 255);
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
   text-align: center;
+  position: relative;
+  font-size: 2vw; 
+  
+  
 }
 
+#donacion{
+  padding: 0px ;
+}
 
+.cuadro-azul {
+  width: 90%;        
+  height: 100%;      
+  background-color: #e8ffd5; 
+  margin: 20px auto;   
+}
 
+  .card {
+    max-width: 500px;   /* tamaño más chico */
+  }
+
+  .staggered:nth-child(odd) {
+    margin-top: 30px;   /* escalonado */
+  }
 
 
 
